@@ -21,7 +21,7 @@ Ce projet est une application Electron simple pour visualiser et expérimenter a
 Voici un schéma illustrant les différents types de jointures SQL:
 
 <!-- REMPLACEZ LE CHEMIN CI-DESSOUS PAR LE CHEMIN RÉEL DE VOTRE IMAGE DANS LE DÉPÔT OU UNE URL PUBLIQUE -->
-![Schémas des Jointures SQL](<chemin/vers/votre/image.png>)
+![Schémas des Jointures SQL](images/sql_joins.jpg)
 
 ## Fonctionnalités
 
