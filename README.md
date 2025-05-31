@@ -30,4 +30,19 @@ Voici un schéma illustrant les différents types de jointures SQL:
 * Affichage du résultat de la jointure en temps réel.
 * Affichage de la requête SQL correspondante.
 * Diagrammes de Venn illustrant les jointures.
-* Bouton pour réinitialiser les tables aux données d'exemple. 
+* Bouton pour réinitialiser les tables aux données d'exemple.
+
+## Prompt de Génération du Projet
+
+Ce projet a probablement été généré à partir d'un prompt similaire à celui-ci :
+
+"Créez une application Electron qui permet de visualiser et d'expérimenter avec différents types de jointures SQL. L'application devrait :
+1. Avoir une interface utilisateur avec deux tables modifiables (A et B).
+2. Permettre de visualiser les différents types de jointures SQL (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, LEFT JOIN WHERE B.key IS NULL, RIGHT JOIN WHERE A.key IS NULL).
+3. Afficher le résultat de la jointure en temps réel.
+4. Montrer la requête SQL correspondante.
+5. Permettre d'ajouter/supprimer des lignes dans les tables.
+6. Permettre de réinitialiser les tables aux données d'exemple initiales.
+7. Avoir un design moderne et intuitif."
+
+Le projet utilise Electron comme framework, HTML/CSS pour l'interface et JavaScript pour la logique, avec un accent sur un design moderne. 
