@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1100, initial-scale=1.0">
+  <title>Visualisation des Jointures SQL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <aside id="sidebar">
+      <h2>Types de jointures</h2>
+      <ul id="join-types">
+        <li data-type="inner">INNER JOIN</li>
+        <li data-type="left">LEFT JOIN</li>
+        <li data-type="right">RIGHT JOIN</li>
+        <li data-type="full">FULL OUTER JOIN</li>
+        <li data-type="left-null">LEFT JOIN<br><span class="sub">WHERE B.key IS NULL</span></li>
+        <li data-type="right-null">RIGHT JOIN<br><span class="sub">WHERE A.key IS NULL</span></li>
+      </ul>
+    </aside>
+    <main id="main-content">
+      <section id="venn-section">
+        <svg id="venn-diagram" width="350" height="200"></svg>
+      </section>
+      <section id="tables-section">
+        <div class="table-container">
+          <h3>Table A</h3>
+          <table id="table-a"></table>
+          <button id="add-row-a">Ajouter une ligne</button>
+        </div>
+        <div class="table-container">
+          <h3>Table B</h3>
+          <table id="table-b"></table>
+          <button id="add-row-b">Ajouter une ligne</button>
+        </div>
+      </section>
+      <section id="reset-section">
+        <button id="reset-tables">Réinitialiser les exemples</button>
+      </section>
+      <section id="sql-section">
+        <h3>Requête SQL</h3>
+        <pre id="sql-query"></pre>
+      </section>
+      <section id="result-section">
+        <h3>Résultat de la jointure</h3>
+        <table id="result-table"></table>
+      </section>
+    </main>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html> 

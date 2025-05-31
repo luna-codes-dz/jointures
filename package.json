@@ -1,0 +1,12 @@
+{
+  "name": "jointures-sql",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "Visualisation interactive des jointures SQL (Electron)",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^28.2.3"
+  }
+} 
