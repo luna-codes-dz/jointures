@@ -34,8 +34,6 @@ Voici un schéma illustrant les différents types de jointures SQL:
 
 ## Prompt de Génération du Projet
 
-Ce projet a probablement été généré à partir d'un prompt similaire à celui-ci :
-
 "Créez une application Electron qui permet de visualiser et d'expérimenter avec différents types de jointures SQL. L'application devrait :
 1. Avoir une interface utilisateur avec deux tables modifiables (A et B).
 2. Permettre de visualiser les différents types de jointures SQL (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, LEFT JOIN WHERE B.key IS NULL, RIGHT JOIN WHERE A.key IS NULL).
