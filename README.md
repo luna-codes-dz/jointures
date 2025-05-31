@@ -1,3 +1,5 @@
+#### ⚠️ Disclaimer : Ce code a été généré par Cursor et n’est pas du tout optimal. Il peut servir de base, mais n’hésite pas à l’adapter et l’améliorer. Amuse-toi bien 🙂
+
 # Visualisation des Jointures SQL
 
 Ce projet est une application Electron simple pour visualiser et expérimenter avec différents types de jointures SQL (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, etc.). Il permet de modifier les données de deux tables d'exemple (Table A et Table B), de sélectionner un type de jointure et de voir le résultat en temps réel, ainsi que la requête SQL correspondante et un diagramme de Venn illustrant la jointure.
