@@ -45,4 +45,16 @@ Voici un schéma illustrant les différents types de jointures SQL:
 6. Permettre de réinitialiser les tables aux données d'exemple initiales.
 7. Avoir un design moderne et intuitif."
 
-Le projet utilise Electron comme framework, HTML/CSS pour l'interface et JavaScript pour la logique, avec un accent sur un design moderne. 
+Le projet utilise Electron comme framework, HTML/CSS pour l'interface et JavaScript pour la logique, avec un accent sur un design moderne.
+
+## 📚 Documentation Complète
+
+Pour plus d'informations détaillées, consultez la documentation complète dans le dossier [`docs/`](docs/):
+
+- **[Guide Utilisateur](docs/USER_GUIDE.md)** - Manuel complet pour les utilisateurs finaux
+- **[Documentation API](docs/API.md)** - Référence technique des fonctions et structures
+- **[Architecture](docs/ARCHITECTURE.md)** - Architecture technique et design du système
+- **[Guide de Développement](docs/DEVELOPMENT.md)** - Workflow de développement et contribution
+
+### Index de la Documentation
+Voir le [README des docs](docs/README.md) pour un aperçu complet de toute la documentation disponible. 
